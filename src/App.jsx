@@ -118,7 +118,7 @@ export default function App() {
         <div className="flex flex-col sm:flex-row gap-4 z-10">
           {/* Download Server */}
           <a 
-            href="/server.zip" 
+            href="/assets/AppFiles/mobileControllerServer.zip" 
             download 
             className="group flex items-center justify-center gap-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium px-8 py-4 rounded-xl shadow-[0_0_30px_rgba(37,99,235,0.2)] transition-all duration-300 transform hover:-translate-y-0.5"
           >
