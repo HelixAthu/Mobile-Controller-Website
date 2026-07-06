@@ -118,7 +118,7 @@ export default function App() {
         <div className="flex flex-col sm:flex-row gap-4 z-10">
           {/* Download Server */}
           <a 
-            href="/assets/AppFiles/mobileControllerServer.zip" 
+            href={`${import.meta.env.BASE_URL}AppFiles/mobileControllerServer.zip`} 
             download 
             className="group flex items-center justify-center gap-3 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium px-8 py-4 rounded-xl shadow-[0_0_30px_rgba(37,99,235,0.2)] transition-all duration-300 transform hover:-translate-y-0.5"
           >
@@ -131,7 +131,7 @@ export default function App() {
 
           {/* Download APK */}
           <a 
-            href="/assets/AppFiles/mobileController.apk" 
+            href={`${import.meta.env.BASE_URL}AppFiles/mobileController.apk`} 
             download 
             className="group flex items-center justify-center gap-3 bg-gray-900 border border-gray-700 hover:border-cyan-500 text-white font-medium px-8 py-4 rounded-xl hover:shadow-[0_0_30px_rgba(34,211,238,0.1)] transition-all duration-300 transform hover:-translate-y-0.5"
           >
